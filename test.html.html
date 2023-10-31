@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./test.html">
+            <img src="" alt="Logo">
+            <span>Nombre Empresa</span>
+        </a>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Historia</li>
+                <li>Catálogo</li>
+                <li>Contacto</li>
+                <li>Item 5</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <img src="" alt="Logo de la Empresa">
+
+        <div>
+            <h1>Nombre Empresa</h1>
+            <p> <b>Lorem ipsum </b> <small> dolor sit </small>, amet consectetur adipisicing elit. Fuga optio rem veniam delectus sequi, dicta, hic ad nisi autem dolore tempore eligendi. Deleniti animi omnis debitis eligendi, harum fugiat repellat. </p>
+        </div>
+    </section>
+
+    <section id="Historia">
+        <div>
+            <div>
+                <h2>Historia Empresa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eum error earum a. Inventore, optio incidunt praesentium explicabo vero distinctio iure sit eveniet, qui adipisci eaque quos libero sequi fuga!</p>
+            </div>
+
+            <img src="" alt="Imagen de la Empresa">
+        </div>
+    </section>
+
+    <section id="Catálogo">
+        <div>
+            <div>
+                <h2>Stock Empresa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eum error earum a. Inventore, optio incidunt praesentium explicabo vero distinctio iure sit eveniet, qui adipisci eaque quos libero sequi fuga!</p>
+            </div>
+
+            <img src="" alt="Imagen de productos">
+            <img src="" alt="Imagen de productos">
+            <img src="" alt="Imagen de productos">
+        </div>
+    </section>
+
+    <section id="Contacto">
+        <form name="Contacto" method="GET" action="http:127.0.0.1:5500/backend/recibo/formulario.php" enctype="multipart/form-data">
+            
+            <fieldset>
+                <legend> Información Personal </legend>
+
+                <div>
+                    <label for="Nombre"> Nombre: </label>
+                    <input name="Nombre" type="text" autocomplete placeholder="Ingrese su Nombre" required>
+                </div>
+
+                <div>
+                    <label for="Nombre"> Apellido: </label>
+                    <input name="Apellido" type="text" autofocus placeholder="Apellido">
+                </div>
+
+                <div>
+                    <label for="edad"> Edad: </label>
+                    <input name="edad" type="number" required>
+
+                    <label for="dni"> DNI: </label>
+                    <input name="dni" type="number" value="112223333" disabled>
+                </div>
+            </fieldset>
+            
+
+        </form>
+    </section>
+
+</body>
+</html>
